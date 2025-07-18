@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/deviceIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_bluetooth_device"
+            android:contentDescription="Device Icon" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/deviceName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unknown Device"
+                style="@style/BodyText"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/deviceAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00:00:00:00:00"
+                style="@style/SubheaderText"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:id="@+id/deviceRssi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signal: -50 dBm"
+                style="@style/SubheaderText"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/connectButton"
+            style="@style/PrimaryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/connect"
+            android:textSize="12sp"
+            android:minWidth="80dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

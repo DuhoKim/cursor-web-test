@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Custom colors for the surround system -->
+    <color name="primary_blue">#FF2196F3</color>
+    <color name="primary_blue_dark">#FF1976D2</color>
+    <color name="accent_orange">#FFFF9800</color>
+    <color name="accent_orange_dark">#FFF57C00</color>
+    <color name="success_green">#FF4CAF50</color>
+    <color name="error_red">#FFF44336</color>
+    <color name="warning_yellow">#FFFFC107</color>
+    <color name="background_light">#FFF5F5F5</color>
+    <color name="background_dark">#FF303030</color>
+    <color name="surface_light">#FFFFFFFF</color>
+    <color name="surface_dark">#FF424242</color>
+    <color name="text_primary">#FF212121</color>
+    <color name="text_secondary">#FF757575</color>
+    <color name="text_primary_dark">#FFFFFFFF</color>
+    <color name="text_secondary_dark">#FFBDBDBD</color>
+    <color name="divider">#FFBDBDBD</color>
+    
+    <!-- Channel colors -->
+    <color name="channel_front_left">#FF2196F3</color>
+    <color name="channel_front_right">#FF4CAF50</color>
+    <color name="channel_rear_left">#FFFF9800</color>
+    <color name="channel_rear_right">#FF9C27B0</color>
+    <color name="channel_center">#FFF44336</color>
+    <color name="channel_subwoofer">#FF795548</color>
+</resources>
