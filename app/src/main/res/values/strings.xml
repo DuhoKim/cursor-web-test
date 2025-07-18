@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth Surround System</string>
+    <string name="scan_devices">Scan for Devices</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="connected_speakers">Connected Speakers</string>
+    <string name="available_devices">Available Devices</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="front_left">Front Left</string>
+    <string name="front_right">Front Right</string>
+    <string name="rear_left">Rear Left</string>
+    <string name="rear_right">Rear Right</string>
+    <string name="center">Center</string>
+    <string name="subwoofer">Subwoofer</string>
+    <string name="channel_assignment">Channel Assignment</string>
+    <string name="play_test_sound">Play Test Sound</string>
+    <string name="stop_test_sound">Stop Test Sound</string>
+    <string name="volume_control">Volume Control</string>
+    <string name="master_volume">Master Volume</string>
+    <string name="bluetooth_not_supported">Bluetooth is not supported on this device</string>
+    <string name="bluetooth_not_enabled">Bluetooth is not enabled</string>
+    <string name="permission_required">Location permission is required for Bluetooth scanning</string>
+    <string name="scanning">Scanning...</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting...</string>
+    <string name="failed_to_connect">Failed to connect</string>
+    <string name="surround_system_active">Surround System Active</string>
+    <string name="configure_speakers">Configure Speakers</string>
+    <string name="audio_settings">Audio Settings</string>
+    <string name="delay_compensation">Delay Compensation (ms)</string>
+    <string name="audio_sync">Audio Sync</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="bass_boost">Bass Boost</string>
+    <string name="treble_boost">Treble Boost</string>
+</resources>
