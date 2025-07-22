@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.surround.bluetoothsystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Bluetooth permissions -->
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->/workspace/app/src/main/AndroidManifest.xml:6:5-68
+12-->/workspace/app/src/main/AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->/workspace/app/src/main/AndroidManifest.xml:7:5-74
+13-->/workspace/app/src/main/AndroidManifest.xml:7:22-71
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/workspace/app/src/main/AndroidManifest.xml:8:5-81
+14-->/workspace/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/workspace/app/src/main/AndroidManifest.xml:9:5-79
+15-->/workspace/app/src/main/AndroidManifest.xml:9:22-76
+16
+17    <!-- Bluetooth permissions for Android 12+ -->
+18    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+18-->/workspace/app/src/main/AndroidManifest.xml:12:5-76
+18-->/workspace/app/src/main/AndroidManifest.xml:12:22-73
+19    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+19-->/workspace/app/src/main/AndroidManifest.xml:13:5-73
+19-->/workspace/app/src/main/AndroidManifest.xml:13:22-70
+20    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+20-->/workspace/app/src/main/AndroidManifest.xml:14:5-78
+20-->/workspace/app/src/main/AndroidManifest.xml:14:22-75
+21
+22    <!-- Audio permissions -->
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->/workspace/app/src/main/AndroidManifest.xml:17:5-71
+23-->/workspace/app/src/main/AndroidManifest.xml:17:22-68
+24    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+24-->/workspace/app/src/main/AndroidManifest.xml:18:5-80
+24-->/workspace/app/src/main/AndroidManifest.xml:18:22-77
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->/workspace/app/src/main/AndroidManifest.xml:19:5-81
+25-->/workspace/app/src/main/AndroidManifest.xml:19:22-78
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->/workspace/app/src/main/AndroidManifest.xml:20:5-80
+26-->/workspace/app/src/main/AndroidManifest.xml:20:22-77
+27
+28    <!-- Hardware features -->
+29    <uses-feature
+29-->/workspace/app/src/main/AndroidManifest.xml:23:5-25:35
+30        android:name="android.hardware.bluetooth"
+30-->/workspace/app/src/main/AndroidManifest.xml:24:9-50
+31        android:required="true" />
+31-->/workspace/app/src/main/AndroidManifest.xml:25:9-32
+32    <uses-feature
+32-->/workspace/app/src/main/AndroidManifest.xml:26:5-28:36
+33        android:name="android.hardware.bluetooth_le"
+33-->/workspace/app/src/main/AndroidManifest.xml:27:9-53
+34        android:required="false" />
+34-->/workspace/app/src/main/AndroidManifest.xml:28:9-33
+35    <uses-feature
+35-->/workspace/app/src/main/AndroidManifest.xml:29:5-31:35
+36        android:name="android.hardware.audio.output"
+36-->/workspace/app/src/main/AndroidManifest.xml:30:9-53
+37        android:required="true" />
+37-->/workspace/app/src/main/AndroidManifest.xml:31:9-32
+38
+39    <permission
+39-->[androidx.core:core:1.12.0] /home/ubuntu/.gradle/caches/transforms-3/c3074531d01ac9ab8cfdf2481696a09e/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+40        android:name="com.surround.bluetoothsystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.12.0] /home/ubuntu/.gradle/caches/transforms-3/c3074531d01ac9ab8cfdf2481696a09e/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.12.0] /home/ubuntu/.gradle/caches/transforms-3/c3074531d01ac9ab8cfdf2481696a09e/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.surround.bluetoothsystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.12.0] /home/ubuntu/.gradle/caches/transforms-3/c3074531d01ac9ab8cfdf2481696a09e/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.12.0] /home/ubuntu/.gradle/caches/transforms-3/c3074531d01ac9ab8cfdf2481696a09e/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->/workspace/app/src/main/AndroidManifest.xml:33:5-52:19
+46        android:allowBackup="true"
+46-->/workspace/app/src/main/AndroidManifest.xml:34:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.12.0] /home/ubuntu/.gradle/caches/transforms-3/c3074531d01ac9ab8cfdf2481696a09e/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+48        android:dataExtractionRules="@xml/data_extraction_rules"
+48-->/workspace/app/src/main/AndroidManifest.xml:35:9-65
+49        android:debuggable="true"
+50        android:extractNativeLibs="true"
+51        android:fullBackupContent="@xml/backup_rules"
+51-->/workspace/app/src/main/AndroidManifest.xml:36:9-54
+52        android:icon="@mipmap/ic_launcher"
+52-->/workspace/app/src/main/AndroidManifest.xml:37:9-43
+53        android:label="@string/app_name"
+53-->/workspace/app/src/main/AndroidManifest.xml:38:9-41
+54        android:roundIcon="@mipmap/ic_launcher_round"
+54-->/workspace/app/src/main/AndroidManifest.xml:39:9-54
+55        android:supportsRtl="true"
+55-->/workspace/app/src/main/AndroidManifest.xml:40:9-35
+56        android:theme="@style/Theme.BluetoothSurroundSystem" >
+56-->/workspace/app/src/main/AndroidManifest.xml:41:9-61
+57        <activity
+57-->/workspace/app/src/main/AndroidManifest.xml:43:9-51:20
+58            android:name="com.surround.bluetoothsystem.MainActivity"
+58-->/workspace/app/src/main/AndroidManifest.xml:44:13-41
+59            android:exported="true"
+59-->/workspace/app/src/main/AndroidManifest.xml:45:13-36
+60            android:theme="@style/Theme.BluetoothSurroundSystem" >
+60-->/workspace/app/src/main/AndroidManifest.xml:46:13-65
+61            <intent-filter>
+61-->/workspace/app/src/main/AndroidManifest.xml:47:13-50:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/workspace/app/src/main/AndroidManifest.xml:48:17-69
+62-->/workspace/app/src/main/AndroidManifest.xml:48:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/workspace/app/src/main/AndroidManifest.xml:49:17-77
+64-->/workspace/app/src/main/AndroidManifest.xml:49:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.2.0] /home/ubuntu/.gradle/caches/transforms-3/09f2a64d14e76ce226e936273dcfe3d4/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.2.0] /home/ubuntu/.gradle/caches/transforms-3/09f2a64d14e76ce226e936273dcfe3d4/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+70            android:authorities="com.surround.bluetoothsystem.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.2.0] /home/ubuntu/.gradle/caches/transforms-3/09f2a64d14e76ce226e936273dcfe3d4/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.2.0] /home/ubuntu/.gradle/caches/transforms-3/09f2a64d14e76ce226e936273dcfe3d4/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.2.0] /home/ubuntu/.gradle/caches/transforms-3/09f2a64d14e76ce226e936273dcfe3d4/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.2.0] /home/ubuntu/.gradle/caches/transforms-3/09f2a64d14e76ce226e936273dcfe3d4/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.2.0] /home/ubuntu/.gradle/caches/transforms-3/09f2a64d14e76ce226e936273dcfe3d4/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/ubuntu/.gradle/caches/transforms-3/d78a3fb20d71b2bdb399338a7de8e41b/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/ubuntu/.gradle/caches/transforms-3/d78a3fb20d71b2bdb399338a7de8e41b/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/ubuntu/.gradle/caches/transforms-3/d78a3fb20d71b2bdb399338a7de8e41b/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+80                android:value="androidx.startup" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+81        </provider>
+82
+83        <receiver
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+84            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+85            android:directBootAware="false"
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+86            android:enabled="true"
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+87            android:exported="true"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+88            android:permission="android.permission.DUMP" >
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+90                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+93                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+96                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+99                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/c8331a785c786946de5850f47b315052/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+100            </intent-filter>
+101        </receiver>
+102    </application>
+103
+104</manifest>

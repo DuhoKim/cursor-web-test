@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-merged_res-40:/drawable_ic_bluetooth_device.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-main-42:/drawable/ic_bluetooth_device.xml"
+    },
+    {
+        "merged": "com.surround.bluetoothsystem.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.surround.bluetoothsystem.app-main-42:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.surround.bluetoothsystem.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.surround.bluetoothsystem.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-merged_res-40:/drawable_ic_bluetooth_disabled.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-main-42:/drawable/ic_bluetooth_disabled.xml"
+    },
+    {
+        "merged": "com.surround.bluetoothsystem.app-merged_res-40:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.surround.bluetoothsystem.app-main-42:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.surround.bluetoothsystem.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.surround.bluetoothsystem.app-main-42:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.surround.bluetoothsystem.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.surround.bluetoothsystem.app-main-42:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-merged_res-40:/layout_item_connected_speaker.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-main-42:/layout/item_connected_speaker.xml"
+    },
+    {
+        "merged": "com.surround.bluetoothsystem.app-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.surround.bluetoothsystem.app-main-42:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-merged_res-40:/drawable_ic_speaker_connected.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-main-42:/drawable/ic_speaker_connected.xml"
+    },
+    {
+        "merged": "com.surround.bluetoothsystem.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.surround.bluetoothsystem.app-main-42:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-merged_res-40:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-main-42:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-merged_res-40:/layout_item_bluetooth_device.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-main-42:/layout/item_bluetooth_device.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-merged_res-40:/xml_backup_rules.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.5/com.surround.bluetoothsystem.app-main-42:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.surround.bluetoothsystem.app-merged_res-40:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.surround.bluetoothsystem.app-main-42:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.surround.bluetoothsystem.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.surround.bluetoothsystem.app-main-42:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.surround.bluetoothsystem.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.surround.bluetoothsystem.app-main-42:/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
