@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include/exclude rules for backup and restore -->
+    <exclude domain="sharedpref" path="bluetooth_devices.xml"/>
+    <exclude domain="database" path="temporary_audio_cache.db"/>
+</full-backup-content>

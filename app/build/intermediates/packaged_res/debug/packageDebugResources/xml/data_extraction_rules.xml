@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="bluetooth_devices.xml"/>
+        <exclude domain="database" path="temporary_audio_cache.db"/>
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="bluetooth_devices.xml"/>
+        <exclude domain="database" path="temporary_audio_cache.db"/>
+    </device-transfer>
+</data-extraction-rules>
