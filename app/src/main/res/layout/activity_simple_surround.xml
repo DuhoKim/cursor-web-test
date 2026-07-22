@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:fitsSystemWindows="true">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="80dp"
+        android:gravity="center_horizontal">
+        
+        <!-- Title with top margin to avoid overlap -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎬 Surround Helper"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="24dp" />
+            
+        <!-- Channel Selection Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/background_dark"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1️⃣ SELECT CHANNEL"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_blue"
+                android:layout_marginBottom="12dp" />
+                
+            <Spinner
+                android:id="@+id/spinnerSimpleChannel"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/spinner_background"
+                android:popupBackground="@color/white"
+                android:dropDownVerticalOffset="56dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="48dp" />
+                
+            <TextView
+                android:id="@+id/tvSimpleChannelInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="12dp" />
+                
+            <Button
+                android:id="@+id/btnSimpleSetupGuide"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="📖 SETUP GUIDE"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/primary_blue" />
+                
+        </LinearLayout>
+        
+        <!-- Video Control Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/background_dark"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2️⃣ CONTROL VIDEO"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/success_green"
+                android:layout_marginBottom="12dp" />
+                
+            <Button
+                android:id="@+id/btnSimplePlayPause"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="▶ PLAY"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/success_green" />
+                
+        </LinearLayout>
+        
+        <!-- Manual Sync Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/background_dark"
+            android:padding="16dp">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3️⃣ SYNC IF NEEDED"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/accent_orange"
+                android:layout_marginBottom="8dp" />
+                
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If this phone is AHEAD, tap to pause briefly:"
+                android:textSize="13sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="12dp" />
+                
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+                
+                <Button
+                    android:id="@+id/btnSimpleBack50ms"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:text="⏪ Back\n50ms"
+                    android:textSize="12sp"
+                    android:backgroundTint="@color/error_red"
+                    android:layout_marginEnd="4dp"
+                    android:padding="4dp" />
+                    
+                <Button
+                    android:id="@+id/btnSimpleForward50ms"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:text="⏩ Fwd\n50ms"
+                    android:textSize="12sp"
+                    android:backgroundTint="@color/success_green"
+                    android:padding="4dp" />
+                    
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/btnSimpleBack200ms"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:text="⏪ Back\n200ms"
+                    android:textSize="12sp"
+                    android:backgroundTint="@color/error_red"
+                    android:layout_marginEnd="4dp"
+                    android:padding="4dp" />
+
+                <Button
+                    android:id="@+id/btnSimpleForward200ms"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:text="⏩ Fwd\n200ms"
+                    android:textSize="12sp"
+                    android:backgroundTint="@color/success_green"
+                    android:padding="4dp" />
+
+            </LinearLayout>
+            
+            <TextView
+                android:id="@+id/tvSimpleSyncStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:gravity="center"
+                android:layout_marginTop="8dp" />
+                
+        </LinearLayout>
+        
+        <!-- Netflix Tip -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠️ NETFLIX USER?\n• Sync buttons skip 10 seconds (Netflix limitation).\n• For precise sync, try the 'Speed (1.5x)' button inside the Netflix app."
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/accent_orange"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:padding="12dp"
+            android:background="@drawable/card_background_dark" />
+
+        <!-- YouTube Tip -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📺 YOUTUBE USER?\nYou need YouTube Premium to play video in the background while using this app."
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_blue"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@drawable/card_background_dark" />
+        
+        <!-- Quick Instructions -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 HOW TO USE:\n\n1. Each phone selects its channel\n2. Tap SETUP GUIDE to configure audio\n3. Start same video on all phones\n4. Use sync buttons if needed\n5. Enjoy surround sound!"
+            android:textSize="13sp"
+            android:textColor="@color/text_secondary"
+            android:lineSpacingExtra="6dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:padding="16dp"
+            android:background="@color/background_dark" />
+            
+    </LinearLayout>
+</ScrollView>
